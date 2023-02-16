@@ -1,4 +1,179 @@
-* {
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 150%;
+  color:white
+  
+}
+.app
+{
+  display: flex;
+  justify-content:center;
+  align-items:stretch;
+  width: 100vw;
+  height: 100vh;
+  flex-direction:row;
+ 
+}
+#time
+{
+  background-color: rgb(56, 145, 145);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+#param
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  
+}
+#type
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-color: blueviolet; 
+  flex-direction: column;
+
+}
+.panel
+{
+  flex: 1;
+  opacity: 40%;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+
+
+#input
+{
+  position: relative;
+  top:0vh;
+  right: 5%;
+  transform: rotate(270deg);
+  cursor:move;
+  width: 30vh;
+  height: 5%;
+  -webkit-appearance: none;
+  background-color:transparent;
+  border: 2px solid white;
+  border-radius: 12px;
+
+ 
+  
+
+}
+
+button
+{
+  width: fit-content;
+  height: 4%;
+  margin: 2%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color:transparent;
+  transition: 0.5s;
+  
+}
+.panel:hover
+{
+  opacity: 100%;
+}
+button:hover
+{
+  opacity: 30%;
+}
+#video
+{
+  position:fixed;
+  z-index: -1;
+
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0; 
+  left: 0; 
+
+}
+
+#min
+{
+  white-space: pre;
+}
+#start_button
+{
+  border: 0px solid white;
+}
+
+#time_set
+{
+  margin-top: 20vh;
+}
+
+/* #how_use
+{
+  position:fixed;
+  top: 93%;
+  left: 90%;
+  background-color: aqua;  
+  transition:  2s;
+}
+#how_use:hover
+{
+ 
+  background-color: blueviolet;
+ 
+  transform: translate(-200px,-200px) scale(10, 10); 
+  font-size: small;
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -90,4 +265,4 @@ video {
   left: 0%;
   width: 100%;
   z-index: -10;
-}
+} */
